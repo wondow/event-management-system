@@ -1,6 +1,6 @@
 <?php
 require 'includes/db.php';
-require 'includes/mailer.php'; // You’ll create this
+require 'includes/mailer.php'; 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $email_or_phone = $_POST['email'];
